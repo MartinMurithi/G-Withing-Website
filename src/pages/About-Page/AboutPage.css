@@ -1,0 +1,26 @@
+.aboutUsPage{
+    /* background-color: red; */
+}
+
+.aboutUsPageBcg{
+    height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./../../../public//assets//about-us-image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.aboutUsSectionTitle{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutUsPageText{
+    width: 80%;
+    margin: 30px auto;
+}
