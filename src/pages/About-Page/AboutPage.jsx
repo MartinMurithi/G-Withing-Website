@@ -10,7 +10,7 @@ function AboutPage() {
       <NavBar />
       <div class="aboutUsPage">
         <div className="aboutUsPageBcg">
-          <p class="aboutUsSectionTitle">About G-Withing Company Limited</p>
+          <p class="aboutUsPageTitle">About G-Withing Company Limited</p>
         </div>
 
         <div className="aboutUsPageText">
