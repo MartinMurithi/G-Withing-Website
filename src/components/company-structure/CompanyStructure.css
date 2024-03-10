@@ -1,0 +1,36 @@
+.companyStructure {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.companyStructureTitle {
+  margin-top: 30px;
+  color: #242424;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.companyStructureDescription {
+  color: #5d5d5d;
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 15px 0px 10px;
+  font-weight: 400;
+}
+
+.companyStructureImg {
+  max-width: 90%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+figcaption {
+  width: 90%;
+  margin-top: 10px;
+  background-color: #d6d6d6;
+  color: #000000;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}

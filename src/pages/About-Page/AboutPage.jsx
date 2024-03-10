@@ -1,6 +1,8 @@
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 import NavBar from "../../components/Nav/NavBar";
 import "./AboutPage.css";
+import CompanyStructure from "../../components/company-structure/CompanyStructure";
 
 function AboutPage() {
   return (
@@ -49,8 +51,71 @@ function AboutPage() {
             well skilled and experienced in running various projects including
             cleaning and gardening services.
           </p>
+
+          <h4 className="missionTitle">OUR MISSION</h4>
+          <ul className="missionList">
+            <div className="missionItem">
+              <FaCheck />
+              <li className="mission">
+                To provide cleaning that will strive to be the industry leaders
+                in superior quality with innovative technulogy to meet the
+                demands of our customers
+              </li>
+            </div>
+
+            <div className="missionItem">
+              <FaCheck />
+              <li className="mission">
+                To retain consistency in the provision of our high-quality
+                cleaning with strong focus of our clients, while ensuring
+                confidentiality and trust from all stake holders.
+              </li>
+            </div>
+
+            <div className="missionItem">
+              <FaCheck />
+              <li className="mission">
+                Cleaning is our core business, achieving the priority of
+                customers will help us to survive in this fiercely competitve
+                environment.
+              </li>
+            </div>
+
+            <div className="missionItem">
+              <FaCheck />
+              <li className="mission">
+                Allow customers to judge the quality of servies provided through
+                feedback modles for our corporate and individual customers.
+              </li>
+            </div>
+
+            <div className="missionItem">
+              <FaCheck />
+              <li className="mission">
+                To achieve a reputation in the market place for outstanding
+                delivery.
+              </li>
+            </div>
+
+            <div className="missionItem">
+              <FaCheck />
+              <li className="mission">
+                To encourage close and everlasting relationships with our
+                customers thereby building their trust and confidence.
+              </li>
+            </div>
+          </ul>
+
+          <h4 className="visionTitle">OUR VISION</h4>
+          <p className="vision">
+            Through a committment to excellence and continual investment in our
+            people, we seek to become the leading brand name within the cleaning
+            industry nation wide.
+          </p>
         </div>
       </div>
+      {/* Company structure */}
+      <CompanyStructure />
     </div>
   );
 }

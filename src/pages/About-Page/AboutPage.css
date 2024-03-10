@@ -1,9 +1,5 @@
-.aboutUsPage{
-    /* background-color: red; */
-}
-
-.aboutUsPageBcg{
-    height: 30vh;
+.aboutUsPageBcg {
+  height: 30vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./../../../public//assets//about-us-image.webp");
   background-repeat: no-repeat;
@@ -14,13 +10,56 @@
   align-items: center;
 }
 
-p.aboutUsSectionTitle{
-    color: whitesmoke;
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
+p.aboutUsSectionTitle {
+  color: whitesmoke;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.aboutUsPageText{
-    width: 80%;
-    margin: 30px auto;
+.aboutUsPageText {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.missionTitle {
+  margin-top: 30px;
+  color: #242424;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.missionList {
+  list-style-type: none;
+}
+
+.missionItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: first baseline;
+  gap: 10px;
+}
+
+.mission {
+  color: #5d5d5d;
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 15px 0px 10px;
+  font-weight: 400;
+}
+
+.visionTitle {
+  margin-top: 30px;
+  color: #242424;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.vision {
+  color: #5d5d5d;
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 10px 0px 10px;
+  font-weight: 400;
 }
