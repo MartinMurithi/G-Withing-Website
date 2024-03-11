@@ -1,5 +1,6 @@
 {
   "name": "g-within-company",
+  "homepage": "http://gwithin.co.tz/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
