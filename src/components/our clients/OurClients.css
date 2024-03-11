@@ -1,0 +1,19 @@
+.client-section {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.ourClientsTitle {
+  text-align: center;
+  margin: 40px;
+  color: #242424;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.clientsList{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

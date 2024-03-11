@@ -3,6 +3,7 @@ import { FaCheck } from "react-icons/fa";
 import NavBar from "../../components/Nav/NavBar";
 import "./AboutPage.css";
 import CompanyStructure from "../../components/company-structure/CompanyStructure";
+import CodeOfConduct from "../../components/code of conduct/CodeOfConduct";
 
 function AboutPage() {
   return (
@@ -116,6 +117,9 @@ function AboutPage() {
       </div>
       {/* Company structure */}
       <CompanyStructure />
+
+      {/* Code of conduct */}
+      <CodeOfConduct />
     </div>
   );
 }

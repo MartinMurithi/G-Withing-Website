@@ -22,6 +22,7 @@ function CompanyStructure() {
         and the collaborative spirit that drives our company forward.
       </p>
       <figure>
+        <figcaption>Our Company Structure</figcaption>
         <img
           src="/assets/company-structure.png"
           alt="Company Structure"
@@ -29,7 +30,6 @@ function CompanyStructure() {
           loading="lazy"
           className="companyStructureImg"
         />
-        <figcaption>Company Structure</figcaption>
       </figure>
     </div>
   );
