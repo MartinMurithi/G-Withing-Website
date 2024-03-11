@@ -63,3 +63,29 @@ p.aboutUsPageTitle {
   margin: 10px 0px 10px;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 768px){
+
+  .aboutUsPageBcg{
+    height: 20vh;
+    text-align: center;
+  }
+
+p.aboutUsPageTitle {
+  font-size: 2rem;
+}
+
+.aboutUsPageText {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.missionTitle {
+  font-size: 1.3rem;
+}
+
+.visionTitle {
+  font-size: 1.3rem;
+}
+
+}

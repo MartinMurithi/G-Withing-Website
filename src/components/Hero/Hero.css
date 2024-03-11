@@ -1,9 +1,11 @@
 .hero-section {
-  height: 72vh;
+  height: 80vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./../../../public//assets//hero-img-7.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  height: 70vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-text {
@@ -17,28 +19,74 @@
   color: aliceblue;
 }
 
-.welcome-text{
-    font-size: 1.7rem;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 40px;
+.welcome-text {
+  font-size: 1.7rem;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 40px;
 }
 
-.company-name{
-    font-size: 2.6rem;
-    line-height: 60px;
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
+.company-name {
+  font-size: 2.6rem;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.intro-hero-text{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    color: whitesmoke;
+.intro-hero-text {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.hero-about-us {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: whitesmoke;
+  outline: transparent;
+  border: 1px solid whitesmoke;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  div.hero-section {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  div.hero-text {
+    /* background-color: rebeccapurple; */
+    height: 70vh;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    color: aliceblue;
+    align-items: center;
+  }
+
+  p.welcome-text {
     font-size: 1.5rem;
     line-height: 30px;
-}
+  }
 
-.hero-about-us{
+  p.company-name {
+    font-size: 2rem;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  p.intro-hero-text {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  .hero-about-us {
     margin-top: 20px;
     padding: 10px 30px;
     background-color: transparent;
@@ -46,8 +94,55 @@
     outline: transparent;
     border: 1px solid whitesmoke;
     text-decoration: none;
+  }
 }
 
-@media only screen and (max-width: 768px){
-  
+@media only screen and (max-width: 1000px) {
+  .hero-section {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-text {
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 70px;
+    color: aliceblue;
+  }
+
+  .welcome-text {
+    font-size: 1.7rem;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 40px;
+  }
+
+  .company-name {
+    font-size: 2.6rem;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .intro-hero-text {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .hero-about-us {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: whitesmoke;
+    outline: transparent;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+  }
 }

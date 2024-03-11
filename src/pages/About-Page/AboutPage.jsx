@@ -9,17 +9,17 @@ function AboutPage() {
   return (
     <div>
       <NavBar />
-      <div class="aboutUsPage">
+      <div className="aboutUsPage">
         <div className="aboutUsPageBcg">
-          <p class="aboutUsPageTitle">About G-Withing Company Limited</p>
+          <p className="aboutUsPageTitle">About G-Withing Company Limited</p>
         </div>
 
         <div className="aboutUsPageText">
-          <h4 class="aboutUsSectionIntro">
+          <h4 className="aboutUsSectionIntro">
             We are a professional cleaning, fumigation and landscaping services
             company in Tanzania
           </h4>
-          <p class="aboutUsDescription">
+          <p className="aboutUsDescription">
             We have an extensive experience in cleaning all types of buildings
             such as schools, offices, colleges, commercail buildings, industrial
             buildings, hotels, shopping malls, government offices, hospitals,
