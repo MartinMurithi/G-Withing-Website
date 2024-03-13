@@ -13,31 +13,19 @@ menu {
 }
 .menuItem {
   text-decoration: none;
-  color: black;
-  display: inline-block;
-  position: relative;
-}
-.menuItem.active{
-    color: red;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.menuItem::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0px;
-  top: 20px;
-  left: 0;
-  background-color: red;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+.menuItem:hover{
+  background-color: #78c400;
+  color: whitesmoke;
+  font-weight: 600;
+  padding: 10px 15px;
 }
 
-.menuItem:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+#services{
+  scroll-behavior: smooth;
 }
 
 .menuList {

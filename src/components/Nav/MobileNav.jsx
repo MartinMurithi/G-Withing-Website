@@ -10,9 +10,34 @@ function MobileNav() {
             Home
           </NavLink>
         </li>
+
+        <li className="mobileNavLinkItem">
+          <NavLink to={"/services"} className="mobileNavLink">
+            Services
+          </NavLink>
+        </li>
+
         <li className="mobileNavLinkItem">
           <NavLink to={"/about-us"} className="mobileNavLink">
             About Us
+          </NavLink>
+        </li>
+
+        <li className="mobileNavLinkItem">
+          <NavLink to={"/#services"} className="mobileNavLink">
+            Services
+          </NavLink>
+        </li>
+
+        <li className="mobileNavLinkItem">
+          <NavLink to={"/how-we-do-it"} className="mobileNavLink">
+            How We Do It
+          </NavLink>
+        </li>
+
+        <li className="mobileNavLinkItem">
+          <NavLink to={"/contact-us"} className="mobileNavLink">
+            Contact Us
           </NavLink>
         </li>
       </ul>

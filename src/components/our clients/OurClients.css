@@ -20,7 +20,8 @@
 
 .clientsList img {
   width: 50%;
-  /* columns: 2 auto; */
+  object-position: center;
+  object-fit: contain;
 }
 
 @media only screen and (max-width: 900px) {

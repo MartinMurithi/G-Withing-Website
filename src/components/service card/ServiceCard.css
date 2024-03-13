@@ -1,22 +1,26 @@
 .servicesSection {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .serviesSectionTitle {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
   text-align: center;
-  font-size: 1.2rem;
-  color: darkblue;
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 2px;
 }
 
 .servicesSectionIntro {
   width: 90%;
   max-width: 600px;
   margin: 20px auto;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 2.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.9rem;
   font-weight: 700;
   text-align: center;
   color: black;
@@ -24,11 +28,10 @@
 
 .service-card {
   width: 100%;
-  max-width: 420px;
+  max-width: 400px;
   height: 400px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  /* overflow: hidden; */
   margin-bottom: 50px;
 }
 
@@ -42,11 +45,11 @@
 .service-title {
   margin-top: 10px;
   color: #242424;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 0 8px;
+  margin: 10px 8px;
 }
 
 .service-description {

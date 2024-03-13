@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
-import { MdOutlineClose } from 'react-icons/md';
+import { MdOutlineClose } from "react-icons/md";
 import "./NavBar.css";
 import MobileNav from "./MobileNav";
 
-{
-  /* Logo, home, about us, services,  */
-}
 function NavBar() {
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
 
@@ -26,11 +23,20 @@ function NavBar() {
           <NavLink to="/" className="menuItem">
             Home
           </NavLink>
+
+          <Link to="/#services" className="menuItem">
+            Services
+          </Link>
           <NavLink to="/about-us" className="menuItem">
             About Us
           </NavLink>
-          {/* <NavLink to='/how-we-do-it' className="menuItem">How We Do It</NavLink> */}
-          {/* <NavLink className="menuItem">Contacts</NavLink> */}
+
+          <NavLink to="/how-we-do-it" className="menuItem">
+            How We Do it
+          </NavLink>
+          <NavLink to="/contacts" className="menuItem">
+            Contact Us
+          </NavLink>
         </div>
 
         {isMobileMenuVisible ? (
