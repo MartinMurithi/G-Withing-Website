@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function MobileNav() {
   return (
@@ -12,7 +12,7 @@ function MobileNav() {
         </li>
 
         <li className="mobileNavLinkItem">
-          <NavLink to={"/services"} className="mobileNavLink">
+          <NavLink to={"/#services"} className="mobileNavLink">
             Services
           </NavLink>
         </li>
@@ -24,21 +24,9 @@ function MobileNav() {
         </li>
 
         <li className="mobileNavLinkItem">
-          <NavLink to={"/#services"} className="mobileNavLink">
-            Services
-          </NavLink>
-        </li>
-
-        <li className="mobileNavLinkItem">
-          <NavLink to={"/how-we-do-it"} className="mobileNavLink">
-            How We Do It
-          </NavLink>
-        </li>
-
-        <li className="mobileNavLinkItem">
-          <NavLink to={"/contact-us"} className="mobileNavLink">
+          <Link to={"/#contact-us"} className="mobileNavLink">
             Contact Us
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </nav>

@@ -31,10 +31,7 @@ function NavBar() {
             About Us
           </NavLink>
 
-          <NavLink to="/how-we-do-it" className="menuItem">
-            How We Do it
-          </NavLink>
-          <NavLink to="/contacts" className="menuItem">
+          <NavLink to="/#contact-us" className="menuItem">
             Contact Us
           </NavLink>
         </div>

@@ -28,8 +28,8 @@
 
 .service-card {
   width: 100%;
-  max-width: 400px;
-  height: 400px;
+  max-width: 500px;
+  height: 450px;
   border: 1px solid #ddd;
   border-radius: 8px;
   margin-bottom: 50px;
@@ -68,7 +68,7 @@
   columns: 3 auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 908px) {
   .servicesList {
     columns: 2 auto;
   }
@@ -81,7 +81,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
   .servicesList {
     columns: 1 auto; /* Adjust to 1 column on even smaller screens */
   }

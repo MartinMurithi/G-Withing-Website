@@ -19,7 +19,7 @@
 }
 
 .clientsList img {
-  width: 50%;
+  width: 40%;
   object-position: center;
   object-fit: contain;
 }
@@ -27,9 +27,11 @@
 @media only screen and (max-width: 900px) {
   .clientsList {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 0 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-content: center;
   }
+
 }

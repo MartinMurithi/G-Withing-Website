@@ -120,6 +120,8 @@ function AboutPage() {
 
       {/* Code of conduct */}
       <CodeOfConduct />
+
+      <footer />
     </div>
   );
 }

@@ -66,3 +66,19 @@ a.contact{
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (max-width:800px){
+  footer{
+    margin-top: 50px;
+  }
+
+  .footer-content {
+  width: 100%;
+  margin: 30px auto 10px auto;
+}
+
+.footer-column {
+  columns: 1 auto;
+}
+
+}

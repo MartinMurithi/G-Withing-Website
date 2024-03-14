@@ -120,7 +120,7 @@ nav.mobileNav {
   display: none;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
   nav.mobileNav {
     display: block;
   }
