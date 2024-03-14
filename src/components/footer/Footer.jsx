@@ -13,16 +13,16 @@ function Footer() {
           <span className="address">Dar es salaam, Tanzania</span>
           <br />
           <span className="address">Phone:</span>
-          <a href="tel:+254722848277" className="contact">
+          <a href="tel:+25767492502" className="contact">
             +255 767 492 502
           </a>
           ,
-          <a href="tel:+254788888748" className="contact">
+          <a href="tel:+255744777776" className="contact">
             +255 744 777 776
           </a>
           <br />
           <span className="address">Email:</span>
-          <a href="mailto:info@parapetcleaning.com" className="contact">
+          <a href="mailto:ceo@gwithin.co.tz" className="contact">
             ceo@gwithin.co.tz
           </a>
         </div>
